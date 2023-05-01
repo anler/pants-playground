@@ -1,0 +1,12 @@
+[GLOBAL]
+pants_version = "2.15.0"
+
+backend_packages = [
+  # Python
+  "pants.backend.python",
+  "pants.backend.experimental.python",
+  "pants.backend.python.typecheck.mypy",
+]
+
+[mypy]
+config = "pyproject.toml"
